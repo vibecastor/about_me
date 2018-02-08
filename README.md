@@ -21,3 +21,6 @@
 -This project is developed using the MIT open source license.
 
 #MIT © Mike Castor
+
+-Pair programing: Lacy (Driver) and Mike (Navigator)
+    - Added functions; completed question 7; corrected errors on questions 4, 5, 6, and 7; added score counter.
