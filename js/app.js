@@ -38,7 +38,7 @@ console.log('User was asked Do you think I\'m from Baltimore, MD?  Responded wit
 var answer4 = prompt('Now for another question.  Do you think I like Thai food?');
 
 if (answer4 === 'yes' || answer4 === 'y') {
-  alert('Of course I do!  Thai food is amazing!  I\'m very lucky because I get to eat Thai food most days since my fiancee is originally from Thailand!'); 
+  alert('Of course I do!  Thai food is amazing!  I\'m very lucky because I get to eat Thai food most days since my fiancee is originally from Thailand!');
 }else if (answer4 === 'no' || answer4 === 'n') {
   alert('Sorry, ' + userName + ' I love Thai food although I am a weakling when it comes to Thai chilis!');
 } else { alert('Try again next time, ' + userName + ' that is not a valid answer.');
@@ -54,3 +54,35 @@ if (answer5 === 'yes' || answer5 === 'y') {
 } else { alert('Try again next time, ' + userName + ' that is not a valid answer.');
 }
 console.log('User was asked do I like coffee?  Responded with ' + answer5 + '.');
+
+
+for (var i = 0; i < 4; i++) {
+  var answer6 = parseInt(prompt('Can you guess how many times have I been to Mexico?'));
+  if (answer6 === 2) {
+    alert('Wow, you got it right!  I\'ve been to Mexico two times.  Once for work and once for vacation!');
+    break;
+  } else if (answer6 < 2) {
+    alert('Too low!');
+  } else if (answer6 > 2) {
+    alert('Too high');
+  }
+}
+console.log('User was asked, How many times have I been to Mexico?  Responded with ' + answer6 + '.');
+
+var answer7 = ['Chocolate', 'Strawberry', 'Salted Caramel', 'Black Rasberry', 'Coconut', 'Durian'];
+
+for (var j = 0; answer7.length; j++) {
+  var question7 = prompt('Can you guess which types of ice cream are my favorites?');
+  for (var k = 0; k < answer7.length; k++) {
+    if (question7 === answer7[k]) {
+      alert('I\'m a sucker for good ice cream.  Yes, that particular flavor is one of my favorites!');
+      break;
+    }
+  } if (k != j) {
+    alert('Sorry that\'s not correct.  Please guess again!');
+  }
+  else {
+    break;
+  }
+}
+console.log('User was asked to guess my favorite ice cream flavors.  User responded with ' + question7 + '.');
