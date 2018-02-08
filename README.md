@@ -21,3 +21,5 @@
 -This project is developed using the MIT open source license.
 
 #MIT © Mike Castor
+
+-Pair programing: Lacy (Driver) and Mike (Navigator)
