@@ -26,6 +26,16 @@ h2 {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+h3 {
+    font-family: 'Narum Pen Script', cursive;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: left;
+}
 p {
     font-family: 'Narum Pen Script', cursive;
     text-align: center;
@@ -34,4 +44,25 @@ p {
     padding-bottom: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
+}
+ul {
+    font-family: 'Narum Pen Script', cursive;
+    text-align: center;
+    list-style-position: inside;
+    font-size: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    float: right;
+}
+ol {
+  font-family: 'Narum Pen Script', cursive;
+  text-align: center;
+  font-size: 30px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  float: right;
 }
