@@ -1,64 +1,54 @@
 body {
-    background-color: rgb(43, 144, 226);
+    background-color: rgb(94, 148, 173);
 }
+.backgroundphoto {
+  background-image: url("Rice Field scaled.jpg");
+  background-position: center top;
+  width: 100%;
+  height: 100%; 
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border-radius: 25px;
+    float: right;
+    margin-left: 0px; 
+    margin-right: 0px; 
+    border-radius: 0px;
 }
 h1 {
-    font-family: 'Narum Pen Script', cursive;
-    text-align: center;
-    font-size: 60px;
     padding-top: 0px;
     padding-bottom: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 h2 {
-    font-family: 'Narum Pen Script', cursive;
-    text-align: center;
-    font-size: 40px;
+    font-family: 'Alegreya', serif;
+    text-align: left;
+    font-size: 100px;
     padding-top: 0px;
     padding-bottom: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-right: 10px;
 }
 h3 {
-    font-family: 'Narum Pen Script', cursive;
-    text-align: center;
+    font-family: 'Alegreya', serif;
+    text-align: left;
     font-size: 40px;
     padding-top: 0px;
     padding-bottom: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
-    float: left;
-}
-p {
-    font-family: 'Narum Pen Script', cursive;
-    text-align: center;
-    font-size: 30px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-left: 10px;
+    margin-right: 40px;
 }
 ul {
-    font-family: 'Narum Pen Script', cursive;
-    text-align: center;
-    list-style-position: inside;
-    font-size: 30px;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    float: right;
-}
-ol {
-  font-family: 'Narum Pen Script', cursive;
-  text-align: center;
+  list-style-type: none;
+  display: inline;
+  font-family: 'Alegreya', serif;
+  text-align: left; 
   font-size: 30px;
   padding-top: 0px;
   padding-bottom: 0px;
@@ -66,3 +56,31 @@ ol {
   margin-bottom: 0px;
   float: right;
 }
+li {
+  display: inline;
+  margin: 15px;
+}
+p {
+    display: block;
+    font-family: 'Alegreya', serif;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin: 20px;
+}
+d.paragraphwidth{
+  width: 2000px;
+}
+ol {
+  font-family: 'Alegreya', serif;
+  text-align: left;
+  font-size: 30px;
+  margin: 30px;
+}
+footer {
+  position: absolute;
+  text-align: left;
+  font-size: 30px;
+} 
